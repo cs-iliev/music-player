@@ -119,6 +119,10 @@ body {
 
 .music-info h4 {
     margin: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .progress-container {

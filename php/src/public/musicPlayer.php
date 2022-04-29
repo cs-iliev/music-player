@@ -6,9 +6,10 @@
     <link rel="shortcut icon" href="#">
     <link
       rel="stylesheet"
+      type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Music Player</title>
   </head>
   <body>
@@ -26,10 +27,10 @@
         </div>
       </div>
 
-      <audio src="music/A Lifetime Of Adventure.mp3" id="audio"></audio>
+      <audio src="../music/A Lifetime Of Adventure.mp3" id="audio"></audio>
 
       <div class="img-container">
-        <img src="images/A Lifetime Of Adventure.jpg" alt="music-cover" id="cover" />
+        <img src="../images/A Lifetime Of Adventure.jpg" alt="music-cover" id="cover" />
       </div>
       <div class="navigation">
         <button id="prev" class="action-btn">
