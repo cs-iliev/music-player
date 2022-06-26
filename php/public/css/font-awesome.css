@@ -1,0 +1,5 @@
+.fa-play::before {
+    max-width: 20px;
+    max-height: 20px;
+    content: url(../../assets/icons/play.png);
+}

@@ -1,0 +1,32 @@
+h3 {
+    text-align: center;
+}
+
+.chart-entry {
+    float: left;
+    padding: 5px 20px 5px;
+    width: 33%;
+}
+
+.chart-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.song-chart-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.song-chart {
+    float: left;
+    background: #ddd;
+    box-shadow: 0 5px 10px 0 rgb(146, 146, 147);
+    border-radius: 20px;
+    height: 80px;
+    margin: 10px;
+}
